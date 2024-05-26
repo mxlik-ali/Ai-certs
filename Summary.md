@@ -34,7 +34,7 @@ The primary objective of this project is to perform sentiment analysis on a coll
 - Utilize NLTK's SentimentIntensityAnalyzer to obtain sentiment scores (negative, neutral, and positive) for each review.
 - The bag of words approach helps in assigning sentiment scores based on the lexical properties of the words in the text.
 
-![VADER Sentiment Scoring]("images\vader.png")
+![VADER Sentiment Scoring]("images/vader.png")
 
 - Here you can infer that there are
 - **Positive** = 19
@@ -46,7 +46,7 @@ The primary objective of this project is to perform sentiment analysis on a coll
 - Model that was used here is MODEL = f'cardiffnlp/twitter-roberta-base-sentiment'
 - Use the Huggingface Pipeline to get the sentiment probabilities (negative, neutral, positive) for each review.
 
-![Roberta Sentiment Scoring](images\roberta.png)
+![Roberta Sentiment Scoring](images/roberta.png)
 
 - Here you can infer that there are
 - **Positive** = 21
@@ -57,7 +57,7 @@ The primary objective of this project is to perform sentiment analysis on a coll
 - The Transformer Pipeline is a powerful and flexible tool provided by the Huggingface library.
 - which simplifies the application of pre-trained transformer models to various NLP tasks. 
 
-![Transformer Pipeline Sentiment Scoring](images\transformer_plp.png)
+![Transformer Pipeline Sentiment Scoring](images/transformer_plp.png)
 
 - Here you can infer that there are
 - **Positive** = 25
@@ -68,7 +68,7 @@ The primary objective of this project is to perform sentiment analysis on a coll
 - Use the Gemini AI model to analyze the sentiment of each review.
 - Extract sentiment probabilities (negative, neutral, positive) from the model for each review.
 
-![Gemini AI Sentiment Scoring](path/to/gemini_ai_sentiment_scoring_image.png)
+![Gemini AI Sentiment Scoring](images/gemini.png)
 
 - Here you can infer that there are
 - **Positive** = 23
