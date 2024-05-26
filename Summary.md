@@ -34,7 +34,7 @@ The primary objective of this project is to perform sentiment analysis on a coll
 - Utilize NLTK's SentimentIntensityAnalyzer to obtain sentiment scores (negative, neutral, and positive) for each review.
 - The bag of words approach helps in assigning sentiment scores based on the lexical properties of the words in the text.
 
-![VADER Sentiment Scoring]("images/vader.png")
+![VADER Sentiment Scoring](images/vader.png)
 
 - Here you can infer that there are
 - **Positive** = 19
